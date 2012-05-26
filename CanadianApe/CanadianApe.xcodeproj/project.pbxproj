@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		917A4A7015717224001DAC6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917A4A6F15717224001DAC6F /* UIKit.framework */; };
+		917A4A7215717224001DAC6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917A4A7115717224001DAC6F /* Foundation.framework */; };
+		917A4A7415717224001DAC6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917A4A7315717224001DAC6F /* CoreGraphics.framework */; };
+		917A4A7A15717224001DAC6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 917A4A7815717224001DAC6F /* InfoPlist.strings */; };
+		917A4A7C15717224001DAC6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A4A7B15717224001DAC6F /* main.m */; };
+		917A4A8015717224001DAC6F /* InteractiveStoryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A4A7F15717224001DAC6F /* InteractiveStoryAppDelegate.m */; };
+		917A4A8315717224001DAC6F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917A4A8115717224001DAC6F /* MainStoryboard.storyboard */; };
+		917A4A8615717224001DAC6F /* InteractiveStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A4A8515717224001DAC6F /* InteractiveStoryViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		917A4A6B15717224001DAC6F /* CanadianApe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanadianApe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		917A4A6F15717224001DAC6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		917A4A7115717224001DAC6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		917A4A7315717224001DAC6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		917A4A7715717224001DAC6F /* CanadianApe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CanadianApe-Info.plist"; sourceTree = "<group>"; };
+		917A4A7915717224001DAC6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		917A4A7B15717224001DAC6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		917A4A7D15717224001DAC6F /* CanadianApe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CanadianApe-Prefix.pch"; sourceTree = "<group>"; };
+		917A4A7E15717224001DAC6F /* InteractiveStoryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InteractiveStoryAppDelegate.h; sourceTree = "<group>"; };
+		917A4A7F15717224001DAC6F /* InteractiveStoryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractiveStoryAppDelegate.m; sourceTree = "<group>"; };
+		917A4A8215717224001DAC6F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		917A4A8415717224001DAC6F /* InteractiveStoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InteractiveStoryViewController.h; sourceTree = "<group>"; };
+		917A4A8515717224001DAC6F /* InteractiveStoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractiveStoryViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		917A4A6815717224001DAC6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917A4A7015717224001DAC6F /* UIKit.framework in Frameworks */,
+				917A4A7215717224001DAC6F /* Foundation.framework in Frameworks */,
+				917A4A7415717224001DAC6F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		917A4A6015717224001DAC6F = {
+			isa = PBXGroup;
+			children = (
+				917A4A7515717224001DAC6F /* CanadianApe */,
+				917A4A6E15717224001DAC6F /* Frameworks */,
+				917A4A6C15717224001DAC6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		917A4A6C15717224001DAC6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				917A4A6B15717224001DAC6F /* CanadianApe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		917A4A6E15717224001DAC6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				917A4A6F15717224001DAC6F /* UIKit.framework */,
+				917A4A7115717224001DAC6F /* Foundation.framework */,
+				917A4A7315717224001DAC6F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		917A4A7515717224001DAC6F /* CanadianApe */ = {
+			isa = PBXGroup;
+			children = (
+				917A4A7E15717224001DAC6F /* InteractiveStoryAppDelegate.h */,
+				917A4A7F15717224001DAC6F /* InteractiveStoryAppDelegate.m */,
+				917A4A8115717224001DAC6F /* MainStoryboard.storyboard */,
+				917A4A8415717224001DAC6F /* InteractiveStoryViewController.h */,
+				917A4A8515717224001DAC6F /* InteractiveStoryViewController.m */,
+				917A4A7615717224001DAC6F /* Supporting Files */,
+			);
+			path = CanadianApe;
+			sourceTree = "<group>";
+		};
+		917A4A7615717224001DAC6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				917A4A7715717224001DAC6F /* CanadianApe-Info.plist */,
+				917A4A7815717224001DAC6F /* InfoPlist.strings */,
+				917A4A7B15717224001DAC6F /* main.m */,
+				917A4A7D15717224001DAC6F /* CanadianApe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		917A4A6A15717224001DAC6F /* CanadianApe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 917A4A8915717224001DAC6F /* Build configuration list for PBXNativeTarget "CanadianApe" */;
+			buildPhases = (
+				917A4A6715717224001DAC6F /* Sources */,
+				917A4A6815717224001DAC6F /* Frameworks */,
+				917A4A6915717224001DAC6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CanadianApe;
+			productName = CanadianApe;
+			productReference = 917A4A6B15717224001DAC6F /* CanadianApe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		917A4A6215717224001DAC6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = InteractiveStory;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 917A4A6515717224001DAC6F /* Build configuration list for PBXProject "CanadianApe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 917A4A6015717224001DAC6F;
+			productRefGroup = 917A4A6C15717224001DAC6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				917A4A6A15717224001DAC6F /* CanadianApe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		917A4A6915717224001DAC6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917A4A7A15717224001DAC6F /* InfoPlist.strings in Resources */,
+				917A4A8315717224001DAC6F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		917A4A6715717224001DAC6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917A4A7C15717224001DAC6F /* main.m in Sources */,
+				917A4A8015717224001DAC6F /* InteractiveStoryAppDelegate.m in Sources */,
+				917A4A8615717224001DAC6F /* InteractiveStoryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		917A4A7815717224001DAC6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				917A4A7915717224001DAC6F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		917A4A8115717224001DAC6F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				917A4A8215717224001DAC6F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		917A4A8715717224001DAC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		917A4A8815717224001DAC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		917A4A8A15717224001DAC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CanadianApe/CanadianApe-Prefix.pch";
+				INFOPLIST_FILE = "CanadianApe/CanadianApe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		917A4A8B15717224001DAC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CanadianApe/CanadianApe-Prefix.pch";
+				INFOPLIST_FILE = "CanadianApe/CanadianApe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		917A4A6515717224001DAC6F /* Build configuration list for PBXProject "CanadianApe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				917A4A8715717224001DAC6F /* Debug */,
+				917A4A8815717224001DAC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		917A4A8915717224001DAC6F /* Build configuration list for PBXNativeTarget "CanadianApe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				917A4A8A15717224001DAC6F /* Debug */,
+				917A4A8B15717224001DAC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 917A4A6215717224001DAC6F /* Project object */;
+}
