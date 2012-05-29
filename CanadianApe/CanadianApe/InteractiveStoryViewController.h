@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface InteractiveStoryViewController : UIViewController
+@interface InteractiveStoryViewController : UIViewController{
+   IBOutlet UITextView *storyTextBox;
+}
+
+@property (nonatomic, retain) UITextView *storyTextBox;
+-(IBAction) animateStoryBox:(id) sender;
+
 
 @end

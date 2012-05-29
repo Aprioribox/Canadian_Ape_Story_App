@@ -31,8 +31,8 @@
 		917A4A7E15717224001DAC6F /* InteractiveStoryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InteractiveStoryAppDelegate.h; sourceTree = "<group>"; };
 		917A4A7F15717224001DAC6F /* InteractiveStoryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractiveStoryAppDelegate.m; sourceTree = "<group>"; };
 		917A4A8215717224001DAC6F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		917A4A8415717224001DAC6F /* InteractiveStoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InteractiveStoryViewController.h; sourceTree = "<group>"; };
-		917A4A8515717224001DAC6F /* InteractiveStoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractiveStoryViewController.m; sourceTree = "<group>"; };
+		917A4A8415717224001DAC6F /* InteractiveStoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InteractiveStoryViewController.h; path = CanadianApe/InteractiveStoryViewController.h; sourceTree = "<group>"; };
+		917A4A8515717224001DAC6F /* InteractiveStoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = InteractiveStoryViewController.m; path = CanadianApe/InteractiveStoryViewController.m; sourceTree = "<group>"; };
 		917A4A9215718038001DAC6F /* logo_canadian_ape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_canadian_ape.png; sourceTree = "<group>"; };
 		917A4A9415718260001DAC6F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,9 +51,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		911EDBE515745B4800DA52EA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				917A4A8415717224001DAC6F /* InteractiveStoryViewController.h */,
+				917A4A8515717224001DAC6F /* InteractiveStoryViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		917A4A6015717224001DAC6F = {
 			isa = PBXGroup;
 			children = (
+				917A4A9015717FA7001DAC6F /* Assets */,
+				911EDBE515745B4800DA52EA /* Classes */,
 				917A4A7515717224001DAC6F /* CanadianApe */,
 				917A4A6E15717224001DAC6F /* Frameworks */,
 				917A4A6C15717224001DAC6F /* Products */,
@@ -84,8 +95,6 @@
 				917A4A7E15717224001DAC6F /* InteractiveStoryAppDelegate.h */,
 				917A4A7F15717224001DAC6F /* InteractiveStoryAppDelegate.m */,
 				917A4A8115717224001DAC6F /* MainStoryboard.storyboard */,
-				917A4A8415717224001DAC6F /* InteractiveStoryViewController.h */,
-				917A4A8515717224001DAC6F /* InteractiveStoryViewController.m */,
 				917A4A7615717224001DAC6F /* Supporting Files */,
 			);
 			path = CanadianApe;
@@ -95,7 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				917A4A9415718260001DAC6F /* icon.png */,
-				917A4A9015717FA7001DAC6F /* Assets */,
 				917A4A7715717224001DAC6F /* CanadianApe-Info.plist */,
 				917A4A7815717224001DAC6F /* InfoPlist.strings */,
 				917A4A7B15717224001DAC6F /* main.m */,
@@ -110,6 +118,7 @@
 				917A4A9215718038001DAC6F /* logo_canadian_ape.png */,
 			);
 			name = Assets;
+			path = CanadianApe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

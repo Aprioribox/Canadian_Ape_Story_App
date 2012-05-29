@@ -30,6 +30,10 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="animateStoryBox:" destination="2" eventType="touchUpInside" id="q0Q-fL-u3c"/>
+                                    <segue destination="YS9-Um-qur" kind="push" id="qZC-zK-K7v"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LQ0-B9-Yib">
                                 <rect key="frame" x="438" y="245" width="149" height="144"/>
@@ -42,6 +46,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="3Ja-1k-Ktv" kind="push" id="VCt-Xx-sjQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hr9-vD-8RS">
                                 <rect key="frame" x="770" y="245" width="149" height="144"/>
@@ -54,6 +61,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="cf7-9j-s4Y" kind="push" id="7Hs-YA-sOX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.50551643274600144" green="0.81418579314160122" blue="0.95108695652173914" alpha="1" colorSpace="calibratedRGB"/>
@@ -64,7 +74,44 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="941" y="12"/>
+            <point key="canvasLocation" x="353" y="-281"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Pni-7p-XOp">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tEy-3M-8ey" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="YS9-Um-qur" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m0Q-jW-Db2">
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="pjZ-Wl-8eE">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="748"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view tag="1" contentMode="scaleToFill" id="WWc-8d-ygk">
+                                <rect key="frame" x="0.0" y="594" width="1024" height="154"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="87G-I1-LR4">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="154"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lM6-qQ-dpb"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2458" y="-1312"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mRK-DZ-eeB">
@@ -79,7 +126,63 @@
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="-294" y="-225"/>
+            <point key="canvasLocation" x="-762" y="-281"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7Id-zg-BMs">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="46C-BJ-sys" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="3Ja-1k-Ktv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qx1-eP-KLK">
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="Aje-06-rUn">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="748"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view tag="1" contentMode="scaleToFill" id="3Ek-J6-KTV">
+                                <rect key="frame" x="0.0" y="608" width="1024" height="140"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fuW-ZY-BR4"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2458" y="-281"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lVf-zR-Iou">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CFS-Ac-dxW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="cf7-9j-s4Y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WDM-GS-WAT">
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="hPo-7S-sA3">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="748"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="s7I-QB-bjj">
+                                <rect key="frame" x="-7" y="607" width="1031" height="141"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ogM-EU-n0e"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2466" y="762"/>
         </scene>
     </scenes>
     <resources>
@@ -88,6 +191,10 @@
     <classes>
         <class className="InteractiveStoryViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/InteractiveStoryViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="animateStoryBox:"/>
+                <relationship kind="outlet" name="storyTextBox" candidateClass="UITextView"/>
+            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
