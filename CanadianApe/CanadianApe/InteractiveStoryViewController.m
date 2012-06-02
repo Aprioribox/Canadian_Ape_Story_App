@@ -14,7 +14,6 @@
 
 @implementation InteractiveStoryViewController
 
-@synthesize storyTextBox;
 
 - (void)viewDidLoad
 {
@@ -26,18 +25,6 @@
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
-}
-
--(IBAction)animateStoryBox:(id)sender
-{
-    NSString * story = @"Hello world";
-    storyTextBox.text = story;
-}
-
--(void) dealloc 
-{
-    [storyTextBox release];
-    [super dealloc];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

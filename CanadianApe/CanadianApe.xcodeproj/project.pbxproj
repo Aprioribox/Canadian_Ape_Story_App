@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		911EDBE815745CB300DA52EA /* StoryOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 911EDBE715745CB300DA52EA /* StoryOneViewController.m */; };
 		917A4A7015717224001DAC6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917A4A6F15717224001DAC6F /* UIKit.framework */; };
 		917A4A7215717224001DAC6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917A4A7115717224001DAC6F /* Foundation.framework */; };
 		917A4A7415717224001DAC6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917A4A7315717224001DAC6F /* CoreGraphics.framework */; };
@@ -17,9 +18,14 @@
 		917A4A8615717224001DAC6F /* InteractiveStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A4A8515717224001DAC6F /* InteractiveStoryViewController.m */; };
 		917A4A9315718038001DAC6F /* logo_canadian_ape.png in Resources */ = {isa = PBXBuildFile; fileRef = 917A4A9215718038001DAC6F /* logo_canadian_ape.png */; };
 		917A4A9515718260001DAC6F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 917A4A9415718260001DAC6F /* icon.png */; };
+		91AA8CCE15746EE1002E4480 /* the_story.txt in Resources */ = {isa = PBXBuildFile; fileRef = 91AA8CCD15746EE1002E4480 /* the_story.txt */; };
+		91E68866157A7E5A00190356 /* Story.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E68865157A7E5A00190356 /* Story.m */; };
+		91E6886A157A873300190356 /* SampleStory.json in Resources */ = {isa = PBXBuildFile; fileRef = 91E68869157A873300190356 /* SampleStory.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		911EDBE615745CB300DA52EA /* StoryOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoryOneViewController.h; path = CanadianApe/StoryOneViewController.h; sourceTree = "<group>"; };
+		911EDBE715745CB300DA52EA /* StoryOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoryOneViewController.m; path = CanadianApe/StoryOneViewController.m; sourceTree = "<group>"; };
 		917A4A6B15717224001DAC6F /* CanadianApe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanadianApe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		917A4A6F15717224001DAC6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		917A4A7115717224001DAC6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,6 +41,10 @@
 		917A4A8515717224001DAC6F /* InteractiveStoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = InteractiveStoryViewController.m; path = CanadianApe/InteractiveStoryViewController.m; sourceTree = "<group>"; };
 		917A4A9215718038001DAC6F /* logo_canadian_ape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_canadian_ape.png; sourceTree = "<group>"; };
 		917A4A9415718260001DAC6F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		91AA8CCD15746EE1002E4480 /* the_story.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = the_story.txt; sourceTree = "<group>"; };
+		91E68864157A7E5A00190356 /* Story.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Story.h; path = CanadianApe/Story.h; sourceTree = "<group>"; };
+		91E68865157A7E5A00190356 /* Story.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Story.m; path = CanadianApe/Story.m; sourceTree = "<group>"; };
+		91E68869157A873300190356 /* SampleStory.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleStory.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,10 @@
 			children = (
 				917A4A8415717224001DAC6F /* InteractiveStoryViewController.h */,
 				917A4A8515717224001DAC6F /* InteractiveStoryViewController.m */,
+				911EDBE615745CB300DA52EA /* StoryOneViewController.h */,
+				911EDBE715745CB300DA52EA /* StoryOneViewController.m */,
+				91E68864157A7E5A00190356 /* Story.h */,
+				91E68865157A7E5A00190356 /* Story.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -63,6 +77,7 @@
 		917A4A6015717224001DAC6F = {
 			isa = PBXGroup;
 			children = (
+				91E68868157A838700190356 /* Stories */,
 				917A4A9015717FA7001DAC6F /* Assets */,
 				911EDBE515745B4800DA52EA /* Classes */,
 				917A4A7515717224001DAC6F /* CanadianApe */,
@@ -108,6 +123,7 @@
 				917A4A7815717224001DAC6F /* InfoPlist.strings */,
 				917A4A7B15717224001DAC6F /* main.m */,
 				917A4A7D15717224001DAC6F /* CanadianApe-Prefix.pch */,
+				91AA8CCD15746EE1002E4480 /* the_story.txt */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,6 +135,14 @@
 			);
 			name = Assets;
 			path = CanadianApe;
+			sourceTree = "<group>";
+		};
+		91E68868157A838700190356 /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				91E68869157A873300190356 /* SampleStory.json */,
+			);
+			name = Stories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +200,8 @@
 				917A4A8315717224001DAC6F /* MainStoryboard.storyboard in Resources */,
 				917A4A9315718038001DAC6F /* logo_canadian_ape.png in Resources */,
 				917A4A9515718260001DAC6F /* icon.png in Resources */,
+				91AA8CCE15746EE1002E4480 /* the_story.txt in Resources */,
+				91E6886A157A873300190356 /* SampleStory.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +215,8 @@
 				917A4A7C15717224001DAC6F /* main.m in Sources */,
 				917A4A8015717224001DAC6F /* InteractiveStoryAppDelegate.m in Sources */,
 				917A4A8615717224001DAC6F /* InteractiveStoryViewController.m in Sources */,
+				911EDBE815745CB300DA52EA /* StoryOneViewController.m in Sources */,
+				91E68866157A7E5A00190356 /* Story.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
