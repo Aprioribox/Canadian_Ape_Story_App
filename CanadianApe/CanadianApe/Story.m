@@ -30,12 +30,12 @@
     dateAdded = value;
 }
 
--(NSInteger *) numberOfPages
+-(int) numberOfPages
 {
-    return numberOfPages;
+    return (numberOfPages);
 }
 
--(void) setNumberOfpages:(NSInteger *) num
+-(void) setNumberOfpages:(int) num
 {
     numberOfPages = num;
 }
@@ -43,6 +43,22 @@
 -(NSMutableArray *) textOnPageArray
 {
     return textOnPageArray;
+}
+
+-(void) setTextOnPageArray:(NSMutableArray *) value
+{
+    textOnPageArray = value;
+}
+
+-(NSString *) getTextOnPage:(int)page
+{
+    NSString *text;
+    if (page < textOnPageArray.count){
+        text =  [[textOnPageArray objectAtIndex: page] textOnPage];
+    } else {
+        [NSException raise:@"Page value too large. Exceeds number of pages in story." format:@"Story has %d pages. Page desired was %d.", textOnPageArray.count, page];
+    }
+    return text;
 }
 
 @end

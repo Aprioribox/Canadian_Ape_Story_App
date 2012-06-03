@@ -7,6 +7,7 @@
 //
 
 #import "StoryOneViewController.h"
+#import "SBJson.h"
 
 @interface StoryOneViewController ()
 
@@ -31,12 +32,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    theStory = [NSString stringWithContentsOfFile:@"the_story.txt"];
-    storyTextBox.text = theStory;
-    [self animateStoryBox];
- }
+    theStory = [self getTheStory];
+    storyTextBox.text = [theStory getTextOnPage:0];
+    //[self animateStoryBox];
+}
 
-- (void)viewDidUnload
+-(void)viewDidUnload
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
@@ -51,10 +52,10 @@
 -(void) animateStoryBox
 {
     NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:0.5
-                                                     target:self
+                                                      target:self
                                                     selector:@selector(fillInStory:)
-                                                   userInfo:nil
-                                                     repeats:YES];;
+                                                    userInfo:nil
+                                                     repeats:YES];
 }
 
 -(void) fillInStory:(NSTimer *) timer
@@ -67,9 +68,47 @@
     }
 }
 
+-(NSMutableArray *) getPageText:(NSDictionary *) storyDict
+{
+    NSArray *pageArray = [storyDict objectForKey:@"page"];
+    NSMutableArray *pages = [[[NSMutableArray alloc] init] autorelease];
+    for (NSDictionary *p in pageArray){
+        Page *page = [[[Page alloc] init] autorelease];
+        [page setPageNumber:(int)[p objectForKey:@"number"]];
+        [page setTextOnPage:[p objectForKey:@"text"]];
+        [pages addObject:page];
+    }
+    return pages;
+}
+
+
+-(Story *) getTheStory
+{
+    
+    Story *parsedStory = [[[Story alloc] init] autorelease];
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"SampleStory" ofType:@"json"];  
+    if (filePath){
+        NSString *jsonStoryFileText = [[[NSString alloc] initWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil] autorelease];        
+        SBJsonParser *parser = [[[SBJsonParser alloc] init] autorelease];
+        NSDictionary *storyData = (NSDictionary *) [parser objectWithString:jsonStoryFileText error:nil];
+        [parsedStory setTitle: [storyData objectForKey:@"title"]];
+        [parsedStory setDate: [storyData objectForKey:@"date"]];
+        [parsedStory setTextOnPageArray:[self getPageText:[storyData objectForKey:@"story"]]];
+        
+        //Try to fix this. Really stupid.
+        int numPages = [[parsedStory textOnPageArray] count];
+        [parsedStory setNumberOfpages:numPages];
+        
+    } else {
+        [NSException raise:@"Error reading story file." format:@"Check the the path exists and that the format is JSON."];
+    }  
+    return parsedStory;
+}
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
 	return YES;
 }
 
 @end
+

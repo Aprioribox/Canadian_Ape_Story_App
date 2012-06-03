@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Story.h"
+#import "Page.h"
 
 @interface StoryOneViewController : UIViewController
 {
     IBOutlet UITextView *storyTextBox;
-    NSString *theStory;
+    Story* theStory;
     int iterations;
 }
 
@@ -21,5 +23,7 @@
 
 -(void) animateStoryBox;
 -(void) fillInStory: (NSTimer*) timer;
+-(Story *) getTheStory;
+-(NSMutableArray *) getPageText:(NSDictionary *) storyDict;
 
 @end

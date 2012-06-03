@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Page.h"
 
 @interface Story : NSString {
     NSString *title;
     NSDate *dateAdded;
-    NSInteger *numberOfPages;
+    int numberOfPages;
     NSMutableArray *textOnPageArray;
 }
 
@@ -22,13 +23,14 @@
 -(NSDate *) dateAdded;
 -(void) setDate:(NSDate *) value;
 
--(NSInteger *) numberOfPages;
--(void) setNumberOfpages:(NSInteger *) num;
+-(int) numberOfPages;
+-(void) setNumberOfpages:(int) num;
 
 -(NSMutableArray *) textOnPageArray;
+-(void) setTextOnPageArray:(NSMutableArray *) value;
 
 
 //Instance Methods
-
+-(NSString *) getTextOnPage:(int) page;
 
 @end
