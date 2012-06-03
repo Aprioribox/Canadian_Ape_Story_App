@@ -17,10 +17,10 @@
 
 // Exposures
 -(NSString *) title;
--(void) setTitle:(NSString *) title;
+-(void) setTitle:(NSString *) value;
 
 -(NSDate *) dateAdded;
--(void) setDate:(NSDate *) date;
+-(void) setDate:(NSDate *) value;
 
 -(NSInteger *) numberOfPages;
 -(void) setNumberOfpages:(NSInteger *) num;
@@ -29,9 +29,6 @@
 
 
 //Instance Methods
-
-
-
 
 
 @end
