@@ -25,5 +25,6 @@
 -(void) fillInStory: (NSTimer*) timer;
 -(Story *) getTheStory;
 -(NSMutableArray *) getPageText:(NSDictionary *) storyDict;
+-(void) rippleView;
 
 @end

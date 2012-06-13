@@ -21,6 +21,7 @@
 		91A72D05157BC5450029F433 /* Page.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A72D04157BC5450029F433 /* Page.m */; };
 		91E68866157A7E5A00190356 /* Story.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E68865157A7E5A00190356 /* Story.m */; };
 		91E6886A157A873300190356 /* SampleStory.json in Resources */ = {isa = PBXBuildFile; fileRef = 91E68869157A873300190356 /* SampleStory.json */; };
+		91ECCA841583DD7B008626E2 /* waving-water2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91ECCA831583DD7B008626E2 /* waving-water2.jpg */; };
 		91F5744F157BB45200313A77 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F57437157BB45200313A77 /* NSObject+SBJson.m */; };
 		91F57450157BB45200313A77 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5743A157BB45200313A77 /* SBJsonParser.m */; };
 		91F57451157BB45200313A77 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5743C157BB45200313A77 /* SBJsonStreamParser.m */; };
@@ -58,6 +59,7 @@
 		91E68864157A7E5A00190356 /* Story.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Story.h; path = CanadianApe/Story.h; sourceTree = "<group>"; };
 		91E68865157A7E5A00190356 /* Story.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Story.m; path = CanadianApe/Story.m; sourceTree = "<group>"; };
 		91E68869157A873300190356 /* SampleStory.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleStory.json; sourceTree = "<group>"; };
+		91ECCA831583DD7B008626E2 /* waving-water2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "waving-water2.jpg"; sourceTree = "<group>"; };
 		91F57436157BB45200313A77 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
 		91F57437157BB45200313A77 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
 		91F57438157BB45200313A77 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 		917A4A9015717FA7001DAC6F /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				91ECCA831583DD7B008626E2 /* waving-water2.jpg */,
 				917A4A9215718038001DAC6F /* logo_canadian_ape.png */,
 				917A4A9415718260001DAC6F /* icon.png */,
 			);
@@ -290,6 +293,7 @@
 				917A4A9315718038001DAC6F /* logo_canadian_ape.png in Resources */,
 				917A4A9515718260001DAC6F /* icon.png in Resources */,
 				91E6886A157A873300190356 /* SampleStory.json in Resources */,
+				91ECCA841583DD7B008626E2 /* waving-water2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

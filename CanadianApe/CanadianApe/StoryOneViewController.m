@@ -35,6 +35,7 @@
     theStory = [self getTheStory];
     storyTextBox.text = [theStory getTextOnPage:0];
     //[self animateStoryBox];
+    [self rippleView];
 }
 
 -(void)viewDidUnload
@@ -57,6 +58,15 @@
                                                     userInfo:nil
                                                      repeats:YES];
 }
+
+-(void) rippleView
+{
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:5];
+    [UIView setAnimationTransition:110 forView:self.view cache:NO];
+    [UIView commitAnimations];
+}
+
 
 -(void) fillInStory:(NSTimer *) timer
 {
