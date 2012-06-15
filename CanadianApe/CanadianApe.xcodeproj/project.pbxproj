@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		911EC763158ADC0300C5ADA9 /* StoryOneViewController_PageTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 911EC762158ADC0300C5ADA9 /* StoryOneViewController_PageTwo.m */; };
+		911EC766158AE03B00C5ADA9 /* InteractiveStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 911EC765158AE03B00C5ADA9 /* InteractiveStoryViewController.m */; };
+		911EC769158AE1D700C5ADA9 /* StoryOneViewController_PageTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 911EC768158AE1D700C5ADA9 /* StoryOneViewController_PageTwo.m */; };
 		911EDBE815745CB300DA52EA /* StoryOneViewController_PageOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 911EDBE715745CB300DA52EA /* StoryOneViewController_PageOne.m */; };
 		917A4A7015717224001DAC6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917A4A6F15717224001DAC6F /* UIKit.framework */; };
 		917A4A7215717224001DAC6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917A4A7115717224001DAC6F /* Foundation.framework */; };
@@ -16,7 +17,6 @@
 		917A4A7C15717224001DAC6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A4A7B15717224001DAC6F /* main.m */; };
 		917A4A8015717224001DAC6F /* InteractiveStoryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A4A7F15717224001DAC6F /* InteractiveStoryAppDelegate.m */; };
 		917A4A8315717224001DAC6F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917A4A8115717224001DAC6F /* MainStoryboard.storyboard */; };
-		917A4A8615717224001DAC6F /* InteractiveStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A4A8515717224001DAC6F /* InteractiveStoryViewController.m */; };
 		917A4A9315718038001DAC6F /* logo_canadian_ape.png in Resources */ = {isa = PBXBuildFile; fileRef = 917A4A9215718038001DAC6F /* logo_canadian_ape.png */; };
 		917A4A9515718260001DAC6F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 917A4A9415718260001DAC6F /* icon.png */; };
 		91A72D05157BC5450029F433 /* Page.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A72D04157BC5450029F433 /* Page.m */; };
@@ -38,8 +38,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		911EC761158ADC0300C5ADA9 /* StoryOneViewController_PageTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryOneViewController_PageTwo.h; sourceTree = "<group>"; };
-		911EC762158ADC0300C5ADA9 /* StoryOneViewController_PageTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryOneViewController_PageTwo.m; sourceTree = "<group>"; };
+		911EC764158AE03B00C5ADA9 /* InteractiveStoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InteractiveStoryViewController.h; path = CanadianApe/InteractiveStoryViewController.h; sourceTree = "<group>"; };
+		911EC765158AE03B00C5ADA9 /* InteractiveStoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InteractiveStoryViewController.m; path = CanadianApe/InteractiveStoryViewController.m; sourceTree = "<group>"; };
+		911EC767158AE1D700C5ADA9 /* StoryOneViewController_PageTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoryOneViewController_PageTwo.h; path = CanadianApe/StoryOneViewController_PageTwo.h; sourceTree = "<group>"; };
+		911EC768158AE1D700C5ADA9 /* StoryOneViewController_PageTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoryOneViewController_PageTwo.m; path = CanadianApe/StoryOneViewController_PageTwo.m; sourceTree = "<group>"; };
 		911EDBE615745CB300DA52EA /* StoryOneViewController_PageOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoryOneViewController_PageOne.h; path = CanadianApe/StoryOneViewController_PageOne.h; sourceTree = "<group>"; };
 		911EDBE715745CB300DA52EA /* StoryOneViewController_PageOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoryOneViewController_PageOne.m; path = CanadianApe/StoryOneViewController_PageOne.m; sourceTree = "<group>"; };
 		917A4A6B15717224001DAC6F /* CanadianApe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanadianApe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,8 +55,6 @@
 		917A4A7E15717224001DAC6F /* InteractiveStoryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InteractiveStoryAppDelegate.h; sourceTree = "<group>"; };
 		917A4A7F15717224001DAC6F /* InteractiveStoryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractiveStoryAppDelegate.m; sourceTree = "<group>"; };
 		917A4A8215717224001DAC6F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		917A4A8415717224001DAC6F /* InteractiveStoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InteractiveStoryViewController.h; path = CanadianApe/InteractiveStoryViewController.h; sourceTree = "<group>"; };
-		917A4A8515717224001DAC6F /* InteractiveStoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = InteractiveStoryViewController.m; path = CanadianApe/InteractiveStoryViewController.m; sourceTree = "<group>"; };
 		917A4A9215718038001DAC6F /* logo_canadian_ape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_canadian_ape.png; sourceTree = "<group>"; };
 		917A4A9415718260001DAC6F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		91A72D03157BC5450029F433 /* Page.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page.h; sourceTree = "<group>"; };
@@ -188,12 +188,12 @@
 		91E6886B157A87FC00190356 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				917A4A8415717224001DAC6F /* InteractiveStoryViewController.h */,
-				917A4A8515717224001DAC6F /* InteractiveStoryViewController.m */,
+				911EC764158AE03B00C5ADA9 /* InteractiveStoryViewController.h */,
+				911EC765158AE03B00C5ADA9 /* InteractiveStoryViewController.m */,
 				911EDBE615745CB300DA52EA /* StoryOneViewController_PageOne.h */,
 				911EDBE715745CB300DA52EA /* StoryOneViewController_PageOne.m */,
-				911EC761158ADC0300C5ADA9 /* StoryOneViewController_PageTwo.h */,
-				911EC762158ADC0300C5ADA9 /* StoryOneViewController_PageTwo.m */,
+				911EC767158AE1D700C5ADA9 /* StoryOneViewController_PageTwo.h */,
+				911EC768158AE1D700C5ADA9 /* StoryOneViewController_PageTwo.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -311,7 +311,6 @@
 			files = (
 				917A4A7C15717224001DAC6F /* main.m in Sources */,
 				917A4A8015717224001DAC6F /* InteractiveStoryAppDelegate.m in Sources */,
-				917A4A8615717224001DAC6F /* InteractiveStoryViewController.m in Sources */,
 				911EDBE815745CB300DA52EA /* StoryOneViewController_PageOne.m in Sources */,
 				91E68866157A7E5A00190356 /* Story.m in Sources */,
 				91F5744F157BB45200313A77 /* NSObject+SBJson.m in Sources */,
@@ -327,7 +326,8 @@
 				91F57459157BB45200313A77 /* SBJsonUTF8Stream.m in Sources */,
 				91F5745A157BB45200313A77 /* SBJsonWriter.m in Sources */,
 				91A72D05157BC5450029F433 /* Page.m in Sources */,
-				911EC763158ADC0300C5ADA9 /* StoryOneViewController_PageTwo.m in Sources */,
+				911EC766158AE03B00C5ADA9 /* InteractiveStoryViewController.m in Sources */,
+				911EC769158AE1D700C5ADA9 /* StoryOneViewController_PageTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

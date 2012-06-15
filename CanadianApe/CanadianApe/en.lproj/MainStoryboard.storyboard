@@ -152,7 +152,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="kqP-dx-8cz"/>
                     <connections>
-                        <outlet property="storyTextBox" destination="2tF-5N-KYO" id="iVq-Ey-wGl"/>
+                        <outlet property="storyTextBox" destination="2tF-5N-KYO" id="rg5-7J-ChY"/>
                     </connections>
                 </viewController>
             </objects>
