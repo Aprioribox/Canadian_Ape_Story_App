@@ -45,45 +45,48 @@
             </objects>
             <point key="canvasLocation" x="353" y="-281"/>
         </scene>
-        <!--Story One View Controller-->
+        <!--Story One View Controller Page One-->
         <scene sceneID="Pni-7p-XOp">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tEy-3M-8ey" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="YS9-Um-qur" customClass="StoryOneViewController" sceneMemberID="viewController">
+                <viewController id="YS9-Um-qur" customClass="StoryOneViewController_PageOne" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m0Q-jW-Db2">
                         <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" id="pjZ-Wl-8eE">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="748"/>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="87G-I1-LR4">
+                                <rect key="frame" x="0.0" y="0.0" width="252" height="748"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                            <view tag="1" contentMode="scaleToFill" id="WWc-8d-ygk">
-                                <rect key="frame" x="0.0" y="594" width="1024" height="154"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="87G-I1-LR4">
-                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="154"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
+                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CK9-cr-K8j">
+                                <rect key="frame" x="945" y="704" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nLQ-GC-7U5" kind="modal" id="FKh-S1-TE7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="lM6-qQ-dpb"/>
                     <connections>
-                        <outlet property="storyTextBox" destination="87G-I1-LR4" id="mq4-bj-46O"/>
+                        <outlet property="storyTextBox" destination="87G-I1-LR4" id="Z0t-tO-MtQ"/>
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="1526" y="-281"/>
+            <point key="canvasLocation" x="1556" y="-281"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mRK-DZ-eeB">
@@ -100,6 +103,61 @@
             </objects>
             <point key="canvasLocation" x="-762" y="-281"/>
         </scene>
+        <!--Story One View Controller Page Two-->
+        <scene sceneID="q7s-Rg-Wgq">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ola-zh-Y2m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="nLQ-GC-7U5" customClass="StoryOneViewController_PageTwo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sZq-eW-KPk">
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="2tF-5N-KYO">
+                                <rect key="frame" x="0.0" y="0.0" width="252" height="748"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DbT-tQ-lbc">
+                                <rect key="frame" x="945" y="704" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QPl-kc-giN">
+                                <rect key="frame" x="293" y="704" width="88" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Previous">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YS9-Um-qur" kind="modal" id="NZr-3w-qon"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kqP-dx-8cz"/>
+                    <connections>
+                        <outlet property="storyTextBox" destination="2tF-5N-KYO" id="iVq-Ey-wGl"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1556" y="615"/>
+        </scene>
     </scenes>
     <resources>
         <image name="logo_canadian_ape.png" width="275" height="110"/>
@@ -108,8 +166,14 @@
         <class className="InteractiveStoryViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/InteractiveStoryViewController.h"/>
         </class>
-        <class className="StoryOneViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/StoryOneViewController.h"/>
+        <class className="StoryOneViewController_PageOne" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/StoryOneViewController_PageOne.h"/>
+            <relationships>
+                <relationship kind="outlet" name="storyTextBox" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+        <class className="StoryOneViewController_PageTwo" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/StoryOneViewController_PageTwo.h"/>
             <relationships>
                 <relationship kind="outlet" name="storyTextBox" candidateClass="UITextView"/>
             </relationships>

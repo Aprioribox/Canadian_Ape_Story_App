@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Story.h"
+#import "Page.h"
+#import "SBJson.h"
 
 @interface InteractiveStoryViewController : UIViewController{
+    Story *theStory;
 }
++(Story *) getTheStory;
++(NSMutableArray *) getPageText:(NSDictionary *) storyDict;
+
+@property (nonatomic, retain) Story *theStory;
+
 @end

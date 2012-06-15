@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		911EDBE815745CB300DA52EA /* StoryOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 911EDBE715745CB300DA52EA /* StoryOneViewController.m */; };
+		911EC763158ADC0300C5ADA9 /* StoryOneViewController_PageTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 911EC762158ADC0300C5ADA9 /* StoryOneViewController_PageTwo.m */; };
+		911EDBE815745CB300DA52EA /* StoryOneViewController_PageOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 911EDBE715745CB300DA52EA /* StoryOneViewController_PageOne.m */; };
 		917A4A7015717224001DAC6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917A4A6F15717224001DAC6F /* UIKit.framework */; };
 		917A4A7215717224001DAC6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917A4A7115717224001DAC6F /* Foundation.framework */; };
 		917A4A7415717224001DAC6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917A4A7315717224001DAC6F /* CoreGraphics.framework */; };
@@ -37,8 +38,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		911EDBE615745CB300DA52EA /* StoryOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoryOneViewController.h; path = CanadianApe/StoryOneViewController.h; sourceTree = "<group>"; };
-		911EDBE715745CB300DA52EA /* StoryOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoryOneViewController.m; path = CanadianApe/StoryOneViewController.m; sourceTree = "<group>"; };
+		911EC761158ADC0300C5ADA9 /* StoryOneViewController_PageTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryOneViewController_PageTwo.h; sourceTree = "<group>"; };
+		911EC762158ADC0300C5ADA9 /* StoryOneViewController_PageTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryOneViewController_PageTwo.m; sourceTree = "<group>"; };
+		911EDBE615745CB300DA52EA /* StoryOneViewController_PageOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoryOneViewController_PageOne.h; path = CanadianApe/StoryOneViewController_PageOne.h; sourceTree = "<group>"; };
+		911EDBE715745CB300DA52EA /* StoryOneViewController_PageOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoryOneViewController_PageOne.m; path = CanadianApe/StoryOneViewController_PageOne.m; sourceTree = "<group>"; };
 		917A4A6B15717224001DAC6F /* CanadianApe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanadianApe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		917A4A6F15717224001DAC6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		917A4A7115717224001DAC6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -187,8 +190,10 @@
 			children = (
 				917A4A8415717224001DAC6F /* InteractiveStoryViewController.h */,
 				917A4A8515717224001DAC6F /* InteractiveStoryViewController.m */,
-				911EDBE615745CB300DA52EA /* StoryOneViewController.h */,
-				911EDBE715745CB300DA52EA /* StoryOneViewController.m */,
+				911EDBE615745CB300DA52EA /* StoryOneViewController_PageOne.h */,
+				911EDBE715745CB300DA52EA /* StoryOneViewController_PageOne.m */,
+				911EC761158ADC0300C5ADA9 /* StoryOneViewController_PageTwo.h */,
+				911EC762158ADC0300C5ADA9 /* StoryOneViewController_PageTwo.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -307,7 +312,7 @@
 				917A4A7C15717224001DAC6F /* main.m in Sources */,
 				917A4A8015717224001DAC6F /* InteractiveStoryAppDelegate.m in Sources */,
 				917A4A8615717224001DAC6F /* InteractiveStoryViewController.m in Sources */,
-				911EDBE815745CB300DA52EA /* StoryOneViewController.m in Sources */,
+				911EDBE815745CB300DA52EA /* StoryOneViewController_PageOne.m in Sources */,
 				91E68866157A7E5A00190356 /* Story.m in Sources */,
 				91F5744F157BB45200313A77 /* NSObject+SBJson.m in Sources */,
 				91F57450157BB45200313A77 /* SBJsonParser.m in Sources */,
@@ -322,6 +327,7 @@
 				91F57459157BB45200313A77 /* SBJsonUTF8Stream.m in Sources */,
 				91F5745A157BB45200313A77 /* SBJsonWriter.m in Sources */,
 				91A72D05157BC5450029F433 /* Page.m in Sources */,
+				911EC763158ADC0300C5ADA9 /* StoryOneViewController_PageTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

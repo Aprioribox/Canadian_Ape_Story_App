@@ -3,9 +3,9 @@
 	"date": "05/02/2012",
 	"story": {
 		"page": [
-			{"number":"1", "text":"One day there was a boy who liked to play at the park."},
-			{"number":"2", "text":"There was a bug in the park and he tried to catch it."},
-			{"number":"3", "text":"He wasn't able to catch the bug, and it got away."}
+			{"number":"1", "text":"This is a sample story. Here is page one."},
+			{"number":"2", "text":"This is a sample story. Here is page two. sdkljfhdsjfhsdj kfhdsjk fhdsjkfh jsdkhfjskd hjksdfh jksdhfjkds hfjksdh kf"},
+			{"number":"3", "text":"This is a sample story. Here is page three."}
 		]
 	}
 }
